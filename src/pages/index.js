@@ -29,7 +29,6 @@ const Mix = styled.div`
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="DJ DOM &amp; LETTY"
       keywords={[
         `phoenix`,
         `dj`,
