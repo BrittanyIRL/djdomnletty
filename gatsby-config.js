@@ -43,7 +43,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-favicon`,
       options: {
-        logo: "./src/images/favi1.png",
+        logo: "./src/images/apple-touch-icon.png",
         start_url: "/",
         version: "1.0",
 
