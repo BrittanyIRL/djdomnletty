@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `DJ DOM &amp; LETTY`,
-    description: `DJ Dom &amp; Letty are a vinyl only dj duo based in Phoenix,
+    title: `DJ DOM & LETTY`,
+    description: `DJ Dom & Letty are a vinyl only dj duo based in Phoenix,
     AZ.`,
     author: `@brittanyIRL`,
     owners: "Brittany & Gerrit Feenstra",
