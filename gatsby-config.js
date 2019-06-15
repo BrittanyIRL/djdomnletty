@@ -10,19 +10,10 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          {
-            family: `Kanit`,
-            subsets: [`latin`],
-            variants: [`900i`],
-          },
-          {
-            family: `Open Sans`,
-            variants: [`400`, `700`],
-          },
-        ],
+        fonts: [`Kanit\:900i`],
+        display: "swap",
       },
     },
     {
