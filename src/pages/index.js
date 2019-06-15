@@ -26,7 +26,18 @@ const IndexPage = () => (
   <Layout>
     <SEO
       title="DJ DOM &amp; LETTY"
-      keywords={[`phoenix`, `dj`, `vinyl`, `music`]}
+      keywords={[
+        `phoenix`,
+        `dj`,
+        `vinyl`,
+        `music`,
+        `dj dom n letty`,
+        `dom`,
+        `letty`,
+        `dom n letty`,
+        `dom & letty`,
+        `dom and letty`,
+      ]}
     />
     <>
       <MixesContainer>
