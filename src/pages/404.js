@@ -51,9 +51,11 @@ const StyledLink = styled(Link)`
 
 const NotFoundPage = () => (
   <Layout>
-    <SEO title="404: Not found!!" />
+    <SEO title="404: We're sad that you're here." />
     <Container>
       <iframe
+        id="404"
+        title="404 buddy"
         width="560"
         height="315"
         src="https://www.youtube.com/embed/RgKAFK5djSk"

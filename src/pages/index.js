@@ -1,7 +1,5 @@
 import React from "react"
-
 import styled from "styled-components"
-import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -34,6 +32,8 @@ const IndexPage = () => (
       <MixesContainer>
         <Mix>
           <iframe
+            id="leatherJackets"
+            title="a mix by DJ Dom and Letty"
             width="100%"
             height="400"
             src="https://www.mixcloud.com/widget/iframe/?feed=%2Fdjdomnletty%2Fdj-dom-letty-wheres-your-leather-jacket%2F"
@@ -42,6 +42,8 @@ const IndexPage = () => (
         </Mix>
         <Mix>
           <iframe
+            id="futures"
+            title="a mix by DJ Dom and Letty"
             width="100%"
             height="400"
             src="https://www.mixcloud.com/widget/iframe/?feed=%2Fdjdomnletty%2Fdj-dom-letty-were-staring-at-our-futures%2F"
@@ -50,6 +52,8 @@ const IndexPage = () => (
         </Mix>
         <Mix>
           <iframe
+            id="bucketHats"
+            title="a mix by DJ Dom and Letty"
             width="100%"
             height="400"
             src="https://www.mixcloud.com/widget/iframe/?feed=%2Fdjdomnletty%2Fdj-dom-letty-bucket-hats-lakes-stuff%2F"
