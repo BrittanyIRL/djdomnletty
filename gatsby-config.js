@@ -4,6 +4,8 @@ module.exports = {
     description: `DJ duo spinning all vinyl all the time. We also love fast and furious.`,
     author: `@brittanyIRL`,
     owners: "Brittany & Gerrit Feenstra",
+    url: "https://www.djdomnletty.com", // No trailing slash allowed!
+    image: "/images/apple-touch-icon.jpg",
   },
   plugins: [
     {
