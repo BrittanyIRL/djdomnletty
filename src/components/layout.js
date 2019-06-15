@@ -49,8 +49,8 @@ const GlobalLayout = ({ children }) => {
                 {children}
                 <Footer>
                   <p>
-                    DJ Dom &amp; Letty are based in Phoenix, AZ. You can reach
-                    them at djdomnletty@gmail.com.
+                    DJ Dom &amp; Letty are a vinyl only dj duo based in Phoenix,
+                    AZ. You can reach them at djdomnletty@gmail.com.
                   </p>
                   <p>
                     Site belongs to DJ Dom &amp; Letty, {today.getFullYear()}.

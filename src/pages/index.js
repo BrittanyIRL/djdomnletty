@@ -6,19 +6,23 @@ import SEO from "../components/seo"
 
 const MixesContainer = styled.div`
   width: 100vw;
+  max-width: 1200px;
   margin: auto;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: row;
   height: 100%;
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `
 
 const Mix = styled.div`
   display: block;
-  max-width: 80rem;
-  min-width: 75vw;
   margin: 3rem 0;
 `
 
@@ -45,8 +49,8 @@ const IndexPage = () => (
           <iframe
             id="leatherJackets"
             title="a mix by DJ Dom and Letty"
-            width="100%"
-            height="400"
+            width="500"
+            height="500"
             src="https://www.mixcloud.com/widget/iframe/?feed=%2Fdjdomnletty%2Fdj-dom-letty-wheres-your-leather-jacket%2F"
             frameborder="0"
           />
@@ -55,8 +59,8 @@ const IndexPage = () => (
           <iframe
             id="futures"
             title="a mix by DJ Dom and Letty"
-            width="100%"
-            height="400"
+            width="500"
+            height="500"
             src="https://www.mixcloud.com/widget/iframe/?feed=%2Fdjdomnletty%2Fdj-dom-letty-were-staring-at-our-futures%2F"
             frameborder="0"
           />
@@ -65,8 +69,8 @@ const IndexPage = () => (
           <iframe
             id="bucketHats"
             title="a mix by DJ Dom and Letty"
-            width="100%"
-            height="400"
+            width="500"
+            height="500"
             src="https://www.mixcloud.com/widget/iframe/?feed=%2Fdjdomnletty%2Fdj-dom-letty-bucket-hats-lakes-stuff%2F"
             frameborder="0"
           />

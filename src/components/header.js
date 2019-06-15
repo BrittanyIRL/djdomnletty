@@ -9,6 +9,9 @@ const HeaderContainer = styled.header`
   align-items: center;
   align-content: center;
   background-color: ${({ theme }) => theme.colors.BLUE};
+  @media (max-width: 767px) {
+    height: 8rem;
+  }
   @media (max-width: 600px) {
     height: 5rem;
   }
@@ -37,7 +40,9 @@ const Heading = styled.h1`
 
     }
   }
-
+  @media (max-width: 767px) {
+    font-size: 5rem;  
+  }
   @media (max-width: 600px) {
     font-size: 3.5rem;  
   }
