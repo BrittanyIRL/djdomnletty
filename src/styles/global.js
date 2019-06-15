@@ -15,16 +15,16 @@ export default createGlobalStyle`
   html {
     box-sizing: border-box;
     outline: none;
-  }
-
-  body {
     @import url('https://fonts.googleapis.com/css?family=Kanit:400,900i&display=swap');
-    color: ${({ theme }) => theme.colors.GREEN};
-    background: ${({ theme }) => theme.colors.WHITE};
     font-weight: 900;
     font-style: italic;
     font-family: ${({ theme }) =>
       `Kanit, ${theme.font.family.backup}, sans-serif`};
+  }
+
+  body {
+    color: ${({ theme }) => theme.colors.GREEN};
+    background: ${({ theme }) => theme.colors.WHITE};
     font-size: ${({ theme }) => theme.font.size.m};
     margin: 0;
     padding: 0;
