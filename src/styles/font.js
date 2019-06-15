@@ -1,7 +1,7 @@
 export default {
   family: {
-    primary: "antiqueOlive",
-    backup: "Helvetica",
+    primary: "Kanit",
+    backup: "Arial Black",
   },
   size: {
     xxs: "1rem",

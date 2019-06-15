@@ -1,7 +1,6 @@
 import { createGlobalStyle } from "styled-components/macro"
 
 import "./normalize.css"
-import "./customfonts.css"
 
 export default createGlobalStyle`
   :root {
