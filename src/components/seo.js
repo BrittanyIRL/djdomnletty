@@ -54,6 +54,7 @@ function SEO({ description, lang, meta, keywords, title }) {
           name: `twitter:card`,
           content: `summary`,
         },
+        { name: `twitter:image`, content: site.siteMetadata.image },
         {
           name: `twitter:creator`,
           content: site.siteMetadata.author,
