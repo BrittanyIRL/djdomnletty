@@ -46,6 +46,9 @@ const Heading = styled.h1`
   @media (max-width: 600px) {
     font-size: 3.5rem;  
   }
+  @media (max-width: 338px) {
+    font-size: 3rem;  
+  }
 `
 const Header = () => (
   <HeaderContainer>

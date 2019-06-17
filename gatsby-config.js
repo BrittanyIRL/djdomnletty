@@ -13,7 +13,7 @@ module.exports = {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
-          families: ["Kanit:900i"],
+          families: ["Kanit:900i", "Lato"],
         },
       },
     },

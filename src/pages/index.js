@@ -5,25 +5,26 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const MixesContainer = styled.div`
+  margin-top: 10rem;
   width: 100vw;
   max-width: 1200px;
   margin: auto;
   display: flex;
-  align-items: flex-start;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  flex-direction: row;
   height: 100%;
+  flex-direction: column;
+  align-items: center;
 
   @media (max-width: 1000px) {
-    flex-direction: column;
-    align-items: center;
   }
 `
 
 const Mix = styled.div`
   display: block;
-  margin: 3rem 0;
+  max-width: 90vw;
+  width: 60rem;
+  margin: 1rem 0;
 `
 
 const IndexPage = () => (
@@ -47,11 +48,11 @@ const IndexPage = () => (
       <MixesContainer>
         <Mix>
           <iframe
-            id="leatherJackets"
+            id="leatherJacket"
             title="a mix by DJ Dom and Letty"
-            width="500"
-            height="500"
-            src="https://www.mixcloud.com/widget/iframe/?feed=%2Fdjdomnletty%2Fdj-dom-letty-wheres-your-leather-jacket%2F"
+            width="100%"
+            height="200"
+            src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fdjdomnletty%2Fdj-dom-letty-wheres-your-leather-jacket%2F"
             frameborder="0"
           />
         </Mix>
@@ -59,9 +60,9 @@ const IndexPage = () => (
           <iframe
             id="futures"
             title="a mix by DJ Dom and Letty"
-            width="500"
-            height="500"
-            src="https://www.mixcloud.com/widget/iframe/?feed=%2Fdjdomnletty%2Fdj-dom-letty-were-staring-at-our-futures%2F"
+            width="100%"
+            height="200"
+            src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fdjdomnletty%2Fdj-dom-letty-were-staring-at-our-futures%2F"
             frameborder="0"
           />
         </Mix>
@@ -69,9 +70,9 @@ const IndexPage = () => (
           <iframe
             id="bucketHats"
             title="a mix by DJ Dom and Letty"
-            width="500"
-            height="500"
-            src="https://www.mixcloud.com/widget/iframe/?feed=%2Fdjdomnletty%2Fdj-dom-letty-bucket-hats-lakes-stuff%2F"
+            width="100%"
+            height="200"
+            src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fdjdomnletty%2Fdj-dom-letty-bucket-hats-lakes-stuff%2F"
             frameborder="0"
           />
         </Mix>

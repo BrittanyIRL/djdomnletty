@@ -21,7 +21,9 @@ const Body = styled.div`
   min-height: 100%;
 `
 
-const Main = styled.main``
+const Main = styled.main`
+  padding-top: 2rem;
+`
 
 const Footer = styled.footer`
   font-family: ${({ theme }) =>

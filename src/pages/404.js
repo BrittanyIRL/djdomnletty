@@ -63,7 +63,9 @@ const NotFoundPage = () => (
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       />
-      <StyledLink to="/">We're sad that you're here.</StyledLink>
+      <StyledLink to="/">
+        We're sad that you're here (click here to go home).
+      </StyledLink>
     </Container>
   </Layout>
 )
