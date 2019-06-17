@@ -1,6 +1,7 @@
 export default {
   family: {
     primary: "Kanit",
+    backup: "Lato",
   },
   size: {
     xxs: "1rem",

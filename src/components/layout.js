@@ -24,7 +24,8 @@ const Body = styled.div`
 const Main = styled.main``
 
 const Footer = styled.footer`
-  font-family: 'Kanit',
+  font-family: ${({ theme }) =>
+    `${theme.font.family.primary}, ${theme.font.family.backup}, sans-serif`};
   padding: 1rem 3rem;
   border-top: ${({ theme }) => `.5rem solid ${theme.colors.BLUE}`};
 `

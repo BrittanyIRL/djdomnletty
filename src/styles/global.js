@@ -2,6 +2,8 @@ import { createGlobalStyle } from "styled-components/macro"
 
 import "./normalize.css"
 
+// @import url('https://fonts.googleapis.com/css?family=Kanit:400,900i&display=swap');
+
 export default createGlobalStyle`
   :root {
     font-size: 62.5%;
@@ -15,17 +17,16 @@ export default createGlobalStyle`
   html {
     box-sizing: border-box;
     outline: none;
-    @import url('https://fonts.googleapis.com/css?family=Kanit:400,900i&display=swap');
-    font-weight: 900;
-    font-style: italic;
-    font-family: ${({ theme }) =>
-      `Kanit, ${theme.font.family.backup}, sans-serif`};
   }
 
   body {
     color: ${({ theme }) => theme.colors.GREEN};
     background: ${({ theme }) => theme.colors.WHITE};
     font-size: ${({ theme }) => theme.font.size.m};
+    font-weight: 900;
+    font-style: italic;
+    font-family: ${({ theme }) =>
+      `${theme.font.family.primary}, ${theme.font.family.backup}, sans-serif`};
     margin: 0;
     padding: 0;
     -moz-osx-font-smoothing: grayscale;
